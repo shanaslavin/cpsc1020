@@ -1,0 +1,41 @@
+/****************
+Shana Slavin
+sslavin
+Lab 5
+Lab Section: 004
+Nashrat Humaira
+****************/
+
+#include <fstream>
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main(int argc, char *argv[]){
+  //initializing variables
+
+
+  //opening output file
+  ifstream(inputPtr);
+  inputPtr.open(argv[1]);
+  if (!inputPtr.is_open()){
+    cout << "File could not be opened correctly." << endl;
+  }
+
+  //opening output file
+  ofstream(outputPtr);
+  outputPtr.open(argv[2]);
+  if (!outputPtr.is_open()) {
+    cout << "File could not be opened correctly" << endl;
+  }
+
+  while (!inputPtr.eof()){
+
+    
+
+  }
+
+  return 0;
+
+}
